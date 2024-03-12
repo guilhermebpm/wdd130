@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta&family=Nunito:wght@400;700&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #124559;
+    --secondary-color: #F0F4EF;
+    --accent1-color: #598392;
+    --accent2-color: #e63946;
+
+    --heading-font: 'Nunito', sans-serif;
+    --paragraph-font: 'Nunito', sans-serif;
+
+    --nav-background-color: #F0F4EF;
+    --nav-link-color: #598392;
+    --nav-hover-link-color: #124559;
+    --nav-hover-background-color: #E63946;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
