@@ -1,7 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 main {
     max-width: 840px;
 }
-
+  
 aside {
 width: 20em;
 margin: 1em;
@@ -17,9 +23,17 @@ aside img {
     height: auto;
 }
 
+aside h2 {
+    position: absolute;
+    top: 570px;
+    left: 85px;
+}
+
 main img {
     width: 150px;
     height: auto;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 p { padding: 0;}
@@ -55,4 +69,17 @@ img {
 
 p {
     padding: 10px;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
+}
+
+.indent {
+    padding-left: 2rem;
 }
