@@ -14,6 +14,55 @@
     --nav-hover-link-color: #124559;
     --nav-hover-background-color: #E63946;
 }
+
+
+.header-menu {
+  display: grid;
+  grid-template-columns: 350px 0.9fr 1.3fr;
+  align-items: center;
+}
+
+h1 {
+	font-size: 2rem;
+	font-family: Acme, Arial, sans-serif;
+}
+
+nav {
+	text-align:left;
+}
+
+.navigation {
+  font-size: 20px;
+  font-family: Arial;
+  display: flex;
+  list-style: none;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container { 
+column-count: 3;
+}
+
+.navigation li {
+	flex: 1;
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 25px;
+	text-decoration: none;
+}
+
+.logo {
+  max-width: 100px;
+}
+
 .hero {
     position: relative;
   }
