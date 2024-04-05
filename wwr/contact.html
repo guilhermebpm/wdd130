@@ -81,6 +81,15 @@
                       <textarea id="message" name="message" rows="4" required></textarea>
                   </div>
                   <div class="form-group">
+                    <label>Preferred Contact Method:</label><br>
+                    <input type="radio" id="contact-email" name="contact-method" value="email">
+                    <label for="contact-email">Email</label><br>
+                    <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                    <label for="contact-phone">Phone</label><br>
+                    <input type="radio" id="contact-none" name="contact-method" value="none">
+                    <label for="contact-none">None</label>
+                </div>
+                  <div class="form-group">
                       <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
                       <label for="newsletter">Please subscribe me to the monthly newsletter</label>
                   </div>
