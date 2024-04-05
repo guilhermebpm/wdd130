@@ -139,6 +139,28 @@ h2.gallery-title {
   visibility: visible;
 }
 
+.employee-profiles {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.employee-profiles figure {
+  text-align: center;
+}
+
+.employee-profiles img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.employee-profiles figcaption {
+  font-size: 14px;
+}
+
 footer {
   background-color: var(--nav-background-color);
   padding: 20px;
