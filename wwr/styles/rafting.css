@@ -272,7 +272,6 @@ footer p {
     font-size: 1.2em;
 }
 
-/* Estilização do botão "Subscribe" */
 .form-button {
   background-color: var(--accent1-color);
   color: white;
@@ -280,14 +279,11 @@ footer p {
   border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Adiciona uma transição suave de cor de fundo */
+  transition: background-color 0.3s ease;
 }
-
 .form-button:hover {
-  background-color: var(--accent2-color); /* Altera a cor de fundo ao passar o mouse */
+  background-color: var(--accent2-color);
 }
-
-/* Organização da seção "grid-layout-section" */
 .grid-layout-section {
   padding: 50px 0;
 }
@@ -317,21 +313,19 @@ footer p {
   margin: 0;
 }
 
-/* Estilização da seção hero-section-home */
 .hero-section-home {
   text-align: center;
   padding: 50px 0;
 }
 
 .hero {
-  max-width: 1000px; /* Aumenta a largura máxima da seção */
+  max-width: 1000px;
   margin: 0 auto;
 }
 
 .hero-image {
-  width: 100%; /* Garante que a imagem ocupe toda a largura da seção */
-  height: auto;
-  max-width: 1200px; /* Define a largura máxima da imagem */
+  width: 100%; 
+  max-width: 1200px;
   height: 500px;
 }
 
@@ -351,4 +345,3 @@ footer p {
   color: white;
   margin-top: 10px;
 }
-
