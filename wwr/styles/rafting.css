@@ -10,13 +10,18 @@
     --paragraph-font: 'Nunito', sans-serif;
 
     --nav-background-color: #F0F4EF;
-    --nav-link-color: #598392;
+    --nav-link-color: #124559;
     --nav-hover-link-color: #124559;
     --nav-hover-background-color: #E63946;
 }
 
 body {
     font-family: 'Truculenta', sans-serif;
+}
+
+.hero-description {
+  color: #ffffff;
+  background-color: #414141;
 }
 
 header {
@@ -274,17 +279,19 @@ footer p {
 }
 
 .form-button {
-  background-color: var(--accent1-color);
-  color: white;
+  background-color: #00516f; /* Cor de fundo mais escura */
+  color: #e0e0e0; /* Cor de texto mais clara */
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
 .form-button:hover {
-  background-color: var(--accent2-color);
+  background-color: #373737; /* Cor de fundo mais escura quando hover */
 }
+
 .grid-layout-section {
   padding: 50px 0;
 }
